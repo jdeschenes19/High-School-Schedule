@@ -13,6 +13,7 @@
 		371C4CC71B1629BA00B28D33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371C4CC61B1629BA00B28D33 /* Images.xcassets */; };
 		371C4CCA1B1629BA00B28D33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371C4CC81B1629BA00B28D33 /* LaunchScreen.xib */; };
 		371C4CD61B1629BA00B28D33 /* High_School_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C4CD51B1629BA00B28D33 /* High_School_ScheduleTests.swift */; };
+		3736EC2A1B18C42100FEF0D7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3736EC291B18C42100FEF0D7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		371C4CCF1B1629BA00B28D33 /* High School ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "High School ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371C4CD41B1629BA00B28D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		371C4CD51B1629BA00B28D33 /* High_School_ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_School_ScheduleTests.swift; sourceTree = "<group>"; };
+		3736EC291B18C42100FEF0D7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				371C4CBF1B1629BA00B28D33 /* AppDelegate.swift */,
 				371C4CC11B1629BA00B28D33 /* ViewController.swift */,
 				371C4CC31B1629BA00B28D33 /* Main.storyboard */,
+				3736EC291B18C42100FEF0D7 /* SecondViewController.swift */,
 				371C4CC61B1629BA00B28D33 /* Images.xcassets */,
 				371C4CC81B1629BA00B28D33 /* LaunchScreen.xib */,
 				371C4CBD1B1629BA00B28D33 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3736EC2A1B18C42100FEF0D7 /* SecondViewController.swift in Sources */,
 				371C4CC21B1629BA00B28D33 /* ViewController.swift in Sources */,
 				371C4CC01B1629BA00B28D33 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				371C4CDB1B1629BA00B28D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371C4CDC1B1629BA00B28D33 /* Build configuration list for PBXNativeTarget "High School ScheduleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				371C4CDE1B1629BA00B28D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
